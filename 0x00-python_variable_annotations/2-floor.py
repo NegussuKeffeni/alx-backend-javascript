@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-""" Returns floor of a float """
+""" Basic annotations - floor """
 
 
 def floor(n: float) -> int:
-    """ takes float, returns rounded int """
-    return (int(n))
+    """ type-annotated function floor which takes a float n as argument
+        and returns the floor of the float. """
+    return int(n)
